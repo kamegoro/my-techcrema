@@ -20,8 +20,8 @@ topics:
     keywords: [clojure, clojurescript, babashka, datomic, leiningen]
     tags: [clojure]
   Java:
-    keywords: [java, jdk, openjdk, jvm, graalvm, spring boot]
-    tags: [java, springboot]
+    keywords: [java, jdk, openjdk, jvm, graalvm, spring boot, kotlin, ktor, jetpack compose]
+    tags: [java, springboot, kotlin]
 
 mute:
   keywords: [web3, crypto, nft, 求人, 採用情報, ポエム]
