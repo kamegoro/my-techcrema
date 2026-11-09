@@ -8,7 +8,7 @@ topics:
     tags: [claude, claudecode]
   AI:
     weight: 0.9
-    keywords: [llm, llms, ai agent, ai agents, agentic, ai coding, generative ai, genai, aiエージェント, 生成ai, ai駆動]
+    keywords: [ai, llm, llms, openai, gpt, gemini, deepseek, llama, qwen, ai agent, ai agents, agentic, ai coding, generative ai, genai, aiエージェント, 生成ai, ai駆動]
     tags: [ai, llm]
   Node.js:
     keywords: [node.js, nodejs, node, npm, pnpm, v8]
