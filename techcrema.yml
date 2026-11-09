@@ -1,20 +1,27 @@
 language: ja
 title: TechCrema
 
+# One section per topic, in this order. `tags` are looked up directly on Zenn, Qiita, dev.to and Lobsters.
 topics:
-  claude:
+  Claude:
     keywords: [claude, claude code, anthropic, mcp]
-  ai:
+    tags: [claude, claudecode]
+  AI:
     weight: 0.9
-    keywords: [llm, llms, ai agent, ai agents, agentic, ai coding, generative ai, genai, aiエージェント, 生成ai, ai駆動, エージェント]
-  node:
+    keywords: [llm, llms, ai agent, ai agents, agentic, ai coding, generative ai, genai, aiエージェント, 生成ai, ai駆動]
+    tags: [ai, llm]
+  Node.js:
     keywords: [node.js, nodejs, node, npm, pnpm, v8]
-  e2e:
+    tags: [nodejs, node]
+  E2E:
     keywords: [playwright, e2e, end-to-end, e2eテスト, テスト自動化, 自動テスト]
-  clojure:
+    tags: [playwright, e2e]
+  Clojure:
     keywords: [clojure, clojurescript, babashka, datomic, leiningen]
-  java:
+    tags: [clojure]
+  Java:
     keywords: [java, jdk, openjdk, jvm, graalvm, spring boot]
+    tags: [java, springboot]
 
 mute:
   keywords: [web3, crypto, nft, 求人, 採用情報, ポエム]
