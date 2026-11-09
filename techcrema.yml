@@ -1,0 +1,27 @@
+language: ja
+title: TechCrema
+
+topics:
+  claude:
+    keywords: [claude, claude code, anthropic, mcp]
+  ai:
+    weight: 0.9
+    keywords: [llm, llms, ai agent, ai agents, agentic, ai coding, generative ai, genai, aiエージェント, 生成ai, ai駆動, エージェント]
+  node:
+    keywords: [node.js, nodejs, node, npm, pnpm, v8]
+  e2e:
+    keywords: [playwright, e2e, end-to-end, e2eテスト, テスト自動化, 自動テスト]
+  clojure:
+    keywords: [clojure, clojurescript, babashka, datomic, leiningen]
+  java:
+    keywords: [java, jdk, openjdk, jvm, graalvm, spring boot]
+
+mute:
+  keywords: [web3, crypto, nft, 求人, 採用情報, ポエム]
+
+official:
+  - anthropics/claude-code
+  - Node.js https://nodejs.org/en/feed/blog.xml
+  - microsoft/playwright
+  - Clojure https://clojure.org/feed.xml
+  - Inside Java https://inside.java/feed.xml

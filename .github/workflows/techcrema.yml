@@ -1,0 +1,29 @@
+name: TechCrema
+
+on:
+  schedule:
+    - cron: '0 21 * * *' # 06:00 JST
+    - cron: '0 8 * * *' # 17:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.techcrema.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - id: techcrema
+        uses: kamegoro/techcrema@v1
